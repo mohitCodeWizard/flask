@@ -6,10 +6,6 @@ app = Flask(__name__)
 def home():
     return render_template("a3p9registra.html")
 
-@app.route("/display/<data>")
-def display(data):
-    return render_template("a3p9disp.html",data = data)
-
 @app.route("/addData", )
 def addData():
     hobbie =""
