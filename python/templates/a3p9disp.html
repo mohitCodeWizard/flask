@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <form>
+            <table border="2">
+                <!-- <thead> -->
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Pass</th>
+                        <th>Phone</th>
+                        <th>gender</th>
+                        <th>hobbie</th>
+                        <th>City</th>
+                        <th>Address</th>
+                    </tr>
+                <!-- </thead> -->
+                <!-- <tbody> -->
+                    {% for item in data %}
+
+                        <tr>
+                            <td>{{item.name}}</td>
+                            <td>{{item.email}}</td>
+                            <td>{{item.pass}}</td>
+                            <td>{{item.phone}}</td>
+                            <td>{{item.gender}}</td>
+                            <td>{{item.hobbie}}</td>
+                            <td>{{item.city}}</td>
+                            <td>{{item.addr}}</td>
+                        </tr>
+                    {% endfor %}
+                <!-- </tbody> -->
+            </table>
+        </form>
+    </body>
+</html>

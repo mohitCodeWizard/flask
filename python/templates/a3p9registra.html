@@ -1,0 +1,62 @@
+<html>
+
+<body>
+    <form action="/addData">
+        <table border="2">
+            <tr>
+                <td> Name:<input type="text" name="txtname"></td>
+            </tr>
+            <tr>
+                <td> Email:<input type="text" name="txtemail"></td>
+            </tr>
+            <tr>
+                <td> Password:<input type="text" name="txtpass"></td>
+            </tr>
+            <tr>
+                <td> Phone:<input type="text" name="txtphone"></td>
+            </tr>
+
+            <tr>
+                <td>Gender:
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td> Hobbies:
+                    <input type="checkbox" name="ch1" value="read">Reading
+                    <input type="checkbox" name="ch2" value="write">Writing
+                    <input type="checkbox" name="ch3" value="Paint">Paiting
+                </td>
+            </tr>
+            <tr>
+                <td> City:
+                    <select name="txtcity">
+
+                        <option value="Surat">Surat</option>
+                        <option value="Ahemdabad">Ahemdabad</option>
+                        <option value="Vadodara">Vadodara</option>
+
+                    </select>
+
+                </td>
+            </tr>   
+            <tr>
+                <td>Address:
+                    <textarea name="txtaddr"
+                        rows="5"
+                        cols="50"
+                    ></textarea>
+                </td>
+            </tr>
+            <tr>
+
+                <td align="center">
+                    <input type="submit" name="subbtn" >
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
