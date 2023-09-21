@@ -29,9 +29,7 @@ def addData():
         addr = request.args['txtaddr']
         
         data =[{"name" : nm,"email": email, "pass": pas , "phone": phone , "gender": gender , "hobbie" : hobbie ,
-                "city": city , "addr":addr
-                }]
-        
+                "city": city , "addr":addr}]
         return render_template("a3p9disp.html", data = data)
         
 
